@@ -15,8 +15,13 @@ body {
   height: 5px;
 }
 
+.nav >li >a{
+  padding: 10px 0px;
+}
 
-
+.hideSmallScreen{
+  display: none;
+}
 
 html{
   line-height:1
@@ -40,7 +45,8 @@ q:before,q:after,blockquote:before,blockquote:after{
   }
 
 a img{
-  border:none
+  border:none;
+  margin-top:10px;
   }
 
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary{
@@ -191,5 +197,13 @@ a{
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
-  
+  a img{
+  margin-top:auto;
+  }  
+}
+
+@media screen and (min-width: 992px) {
+  .hideSmallScreen{
+  display: inline;
+}
 }
