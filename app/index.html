@@ -18,24 +18,16 @@
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
-    <!-- build:js scripts/vendor/modernizr.js -->
-    <script src="/bower_components/modernizr/modernizr.js"></script>
-    <!-- endbuild -->
-    
   </head>
   <body>
-    <!--[if lt IE 10]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
-
+    
     
     <div class="container">
       <nav class="navbar navbar-default navbar-fixed-top nav-justified">
       <div class="container">
         <div class="container-fluid">
         <div class="row">
-          <!-- <div class="col-xs-1">
-          </div> -->
+          
           <div class="col-xs-1 col-xs-offset-1">
             <a class="navbar-text" href="https://www.linkedin.com/profile/view?id=301583733&trk=nav_responsive_tab_profile" target = "_blank">
               <img alt="Brand" src="images/linkedin.png" width="30px" height="30px">  
@@ -50,44 +42,7 @@
           <div class="col-xs-2 col-xs-offset-2">
             <h4 class="text-center visible-xs">Sumeer</h4>
           </div>
-          <!-- <div class="col-xs-4">
-          </div> -->
-          <!-- <div class="col-xs-1 col-xs-offset-2">
-            <a href = "#" class="navbar-text" data-toggle="modal" data-target=".bs-example-modal-lg">
-            Awards
-                <div class="modal fade bs-example-modal-lg" tabindex="-1">
-                  <div class="modal-dialog">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title">Awards and Achievements</h4>
-                      </div>
-                      <div class="modal-body">
-                        <dl>
-                        <dd>
-                          <ul>
-                            <li>
-                              Won the “We applaud” award in OFSS Ltd., for the best performer of the quarter in July 2011
-                            </li>
-                            <li>
-                               Won a gift prize in a surprise technical quiz conducted by HR, Oracle in All Minds Meet in Jan 2013
-                            </li>
-                            <li>
-                              Applauded for significant contribution to the project that had gone LIVE in Ping An Bank in China in October2011 and The Bank of Jilin, China in November 2012 and at present the product is running successfully
-                            </li>
-                          </ul>
-                        </dd>
-                      </dl>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-            </a>
-          </div> -->
+          
           <div class="col-xs-3 pull-right hidden-xs">
             <a target = "_blank" href="Resume_Sumeer Tuli.pdf">
               <p class="navbar-text pull-right">Resume
@@ -900,8 +855,7 @@
 
             </div>
             </div>
-            <!-- <div class="col-xs-1">
-            </div> -->
+            
           </div>
           
 
@@ -913,7 +867,9 @@
 
     </div>
     
-
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
     <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
     <script src="/bower_components/jquery/dist/jquery.js"></script>
@@ -943,13 +899,25 @@
     <!-- endbuild -->
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-    <script>
+    <!--script>
       (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
       function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
       e=o.createElement(i);r=o.getElementsByTagName(i)[0];
       e.src='https://www.google-analytics.com/analytics.js';
       r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
       ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script-->
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-74305617-1', 'auto');
+      ga('send', 'pageview');
+
     </script>
+
   </body>
 </html>
