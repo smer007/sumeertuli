@@ -11,8 +11,12 @@ body {
 
 
 .navbar-brand{
-  width:5px;
-  height: 5px;
+  height: 40px;
+  padding: 0;
+}
+
+.navbar-fixed-top{
+  height: 50px;
 }
 
 .nav >li >a{
@@ -195,11 +199,18 @@ a{
   border:none
   }
 
+.navbar-text-resume{
+  margin-top: 15px;
+}
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   a img{
   margin-top:auto;
   }  
+
+  .navbar-text{
+    margin: 0 15px;
+  }
 }
 
 @media screen and (min-width: 992px) {
